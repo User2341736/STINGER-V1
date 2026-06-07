@@ -31,7 +31,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2349155298855"
+let phoneNumber = "263714797731"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -77,18 +77,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2349155298855")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +263714797731")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +2348187637779 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +263714797731 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
             console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2349155298855")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +2348187637779 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Es Teams said you should Please type your WhatsApp number 🥺\nFor example: +263714797731 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
