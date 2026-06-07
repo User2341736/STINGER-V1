@@ -1,9 +1,6 @@
-//base by DGXeon (Xeon Bot Inc.)
-//YouTube: @esteams
-//Instagram: examsolutionteam 
-//Telegram: t.me/examsolutionteam 
-//GitHub: @paskito002
-//WhatsApp: +2349037524605
+//base by DonXeon (Xeon Bot 
+//GitHub: @Don
+//WhatsApp: +263719929859
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
 
 require('./settings')
