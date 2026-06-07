@@ -2,26 +2,26 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2349037524605"
-global.ownername = "ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑"
-global.ytname = "YT: esteams"
-global.socialm = "GitHub: paskito002"
+global.ownernomer = "263714797731"
+global.ownername = "Don-ᴛᴇᴄʜ👑"
+global.ytname = "YT: isoxtechnologies"
+global.socialm = "GitHub: Don"
 global.location = "Nigeria, Cross River, Calabar"
 
-global.ownernumber = '2348187637779'  //creator number
-global.ownername = 'ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑' //owner name
+global.ownernumber = '263714797731'  //creator number
+global.ownername = 'Don-ᴛᴇᴄʜ👑' //owner name
 global.botname = 'S҉ T҉ I҉ N҉ G҉ E҉ R҉- V҉ 1҉' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑 \n\nContact: +2348187637779'
+global.author = 'Don-ᴛᴇᴄʜ👑 \n\nContact: +263719929859'
 
 //console view/theme
 global.themeemoji = '🪀'
 global.wm = "ES TEAMS."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y'
+global.link isoxtechnologies 
 
 //custom prefix
 global.prefa = ['']
